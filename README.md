@@ -29,8 +29,19 @@ Step 2: Then give permission to you current machine docker to run without sudo (
 Step 3: Run docker (docker-compose up -d) (Here, I have already set docker-compose.yml file with postgreSql and cuurent project deployed on docker with 8000 port)
 Step 4: To check docker is working proper (command: Command: docker ps -a)
 Step 5: Check for particular docker container (command: docker logs -f <NAMES>)  --- NAMES = Container name
+Now move on to Project architecture side,
 
-Now move on to Project architecture side, Here, you just enter command --> "npm run dev" ( this command set for nodemon and typescript build commnad both working as parallely)
+### Step 3: Serve your App
+
+Go to the project directory and start your app with this npm script.
+
+```bash
+npm run dev
+```
+
+> This starts a local server using `nodemon`, which will watch for any file changes and will restart the sever according to these changes.
+> The server address will be displayed to you as `http://0.0.0.0:9001`. ( this command set for nodemon and typescript build commnad both working as parallely)
+
 Then project run successfully on port 9001
 Here, I have already set swagger.json file with all route set on swaggger
 

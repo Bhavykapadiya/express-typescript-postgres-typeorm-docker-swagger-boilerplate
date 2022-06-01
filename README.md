@@ -21,7 +21,7 @@ Create a new database with the name you have in your `.env`-file.
 
 Then setup your application environment. (With "npm i" command)
 
-> This installs all dependencies with yarn. After that it migrates the database and seeds some test data into it. So after that your development environment is ready to use.
+> This installs all dependencies with npm. After that it migrates the database and seeds some test data into it. So after that your development environment is ready to use.
 
 Here, if want to run DB from docker than follow the step as below
 Step 1: install [docker & docker-compose on your machine](https://docs.docker.com/compose/install/)

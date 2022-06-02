@@ -15,6 +15,8 @@ Install a postgreSQL database.
 
 Clone this project.
 
+Now, after installing dependencies create one "development.env" file from ".env.example" file (copy content from '.env.example' to 'development.env')
+
 Then set `devlopment.env` as a `.env` for that fire this command "export NODE_ENV=development"`. In this file you have to add your database connection information.
 
 Create a new database with the name you have in your `.env`-file.
